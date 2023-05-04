@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+
+  <body>
+    <main id="main" class="main">
+      <!-- .header -->
+      <header class="header">
+        <h1 class="title" id="title">Ratan Tata</h1>
+        <p class="title-description"> Chairman Emeritus of Tata Sons</p>
+        <figure class="media" id="div-img">
+          <img
+            class="media__img"
+            id="image"
+            src="https://im.rediff.com/money/2012/dec/28tata-jrd5.jpg"
+            alt="Ratan Tata at the Launch of the world's cheapest car - The Nano"
+          />
+          <figcaption id="img-caption" class="media__caption">
+            Ratan Tata with the then-Singapore prime minister at Tata showroom in Worli, Mumbai.
+          </figcaption>
+        </figure>
+      </header>
+      <!-- tribute-info -->
+      <article class="tribute-info" id="tribute-info">
+        <h3 class="headline">Here's a time line of Ratan Tata's life:</h3>
+        <!-- .list-of-time -->
+        <ul class="list-of-time">
+          <li><time class="time">1937</time> - Ratan Tata was born on December 28, 1937, in Bombay, India.</li>
+          <li>
+            <time class="time">1962,1975</time> - Ratan Tata graduated from Cornell University in 1962 with a degree in architecture. He later completed the Advanced Management Program at Harvard Business School in 1975
+          </li>
+          <li>
+            <time class="time">1962</time> - Ratan Tata joined the Tata Group in 1962 as a trainee in the Tata Steel division..
+          </li>
+          <li>
+            <time class="time">1991</time> -He worked his way up the ranks and became the Chairman of the Tata Group in 1991.
+          </li>
+          <li>
+            <time class="time">1991-2008</time> - Under Ratan Tata's leadership, the Tata Group acquired several iconic brands, including Jaguar Land Rover, Tetley, and Corus.
+          </li>
+          <li>
+            <time class="time">2008</time> -  Ratan Tata made headlines when he unveiled the Tata Nano, the world's cheapest car. The Nano was designed to provide affordable transportation to millions of people in India. Ratan Tata is also a philanthropist and has donated millions of dollars to various causes. He has set up several charitable trusts, including the Tata Trusts, which focus on education, healthcare, and rural development.
+          </li>
+          <li>
+            <time class="time">2008</time> - He was awarded the Padma Vibhushan, India's second-highest civilian award.
+          </li>
+          <li>
+            <time class="time">2010</time> - Ratan Tata was named the Businessman of the Year by Forbes Asia.
+          </li>
+          <li>
+            <time class="time">2011</time> -  He was also named one of the 100 most powerful people in the world by Forbes
+          </li>
+          <li>
+            <time class="time">2015</time> - He pledged to donate 60% of his wealth to charity, making him one of the most generous philanthropists in India. Ratan Tata invested in Indian e-commerce firm, Snapdeal.
+          </li>
+          <li>
+            <time class="time">2016</time> - Ratan Tata invested in Aerospace start-up, Avanti Aerospace
+          </li>
+          <li>
+            <time class="time">2018</time> - Ratan Tata has been a strong advocate for renewable energy. Tata Group achieved the milestone of producing 10,000 solar modules in a day..
+          </li>
+          <li>
+            <time class="time">2019</time> - He launched the Tata Trusts' University Challenge to promote innovation in Indian universities. He has also invested in education start-ups such as Byju's and EdCast.
+          </li>
+          <li>
+            <time class="time">2020</time> - Ratan Tata has been actively involved in providing relief during the COVID-19 pandemic. In 2020, the Tata Trusts donated Rs. 500 crores to fight the pandemic in India.
+          </li>
+          
+        </ul>
+        <blockquote class="quote">
+          <p>
+            Ratan Tata is one of the most influential and respected business leaders in India and around the world. He has a long and illustrious career that spans over five decades and has led the Tata Group to become a global conglomerate with a presence in over 100 countries. Ratan Tata's visionary leadership, business acumen, social responsibility, risk-taking ability, adaptability, strong ethics, and collaborative style have been instrumental in the success of the Tata Group. He has transformed the company into a socially responsible business that is committed to making a positive impact on society. Ratan Tata is also known for his philanthropy and has made significant contributions to various causes through the Tata Trusts. He has set a high standard for business leaders and is respected for his integrity, honesty, and transparency. Ratan Tata's legacy is a testament to his dedication, hard work, and commitment to excellence, and he continues to inspire future generations of business leaders with his values and leadership style.
+          </p>
+          <cite>  "Ratan Tata is one of the most impressive business leaders I have met. He combines innovation and social responsibility in a way that is truly inspiring." -- Elon Musk, CEO of Tesla.</cite>
+        </blockquote>
+      </article>
+      <footer class="footer">
+        
+      </footer>
+    </main>
+  </body>
+</html>
+<style>
+    /* base styles */
+
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+
+  --bg-color: #f9f4ef;
+  --headline-color: #020826;
+  --text-color: #716040;
+  --time-color: #8c7851;
+  --secondary-color: #eaddcf;
+  --media-caption-color: #8c7851;
+  --tertiary-color: #f25042;
+  --border-color: #020826;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: var(--secondary-color);
+}
+
+.main {
+  background-color: var(--bg-color);
+}
+
+/* header */
+.header {
+  padding: 1.4em 0;
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  font-size: 2.4rem;
+  color: var(--headline-color);
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 0.15em;
+}
+
+.title-description {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+@media (min-width: 35em) {
+  .header {
+    padding: 1.8em 0;
+  }
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .title-description {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .header {
+    padding: 2em 0;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .title-description {
+    font-size: 1.5rem;
+  }
+}
+
+/* media */
+.media {
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 3em 1.5em 1.5em;
+  margin: 2em auto 1em;
+}
+
+.media__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  margin: 0 auto;
+}
+
+.media__caption {
+  color: #716040;
+  padding: 0 1em;
+  margin-top: 1.5em;
+}
+
+@media (min-width: 35em) {
+  .media {
+    padding: 4em 4em 1.5em;
+  }
+
+  .media__caption {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 50em) {
+  .media {
+    padding: 5em 5em 3em;
+  }
+
+  .media__img {
+    max-width: min(100%, 900px);
+  }
+
+  .media__caption {
+    max-width: 720px;
+    margin: 1em auto 0;
+  }
+}
+
+/* article */
+@media (min-width: 35em) {
+  .tribute-info {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+.tribute-info > * + * {
+  margin: 3em auto;
+}
+
+.headline {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--headline-color);
+}
+
+.list-of-time {
+  padding: 0 4em;
+}
+
+.list-of-time * {
+  margin-top: 1.2em;
+}
+
+.list-of-time > li {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.list-of-time .time {
+  font-weight: 700;
+}
+
+.quote {
+  color: var(--text-color);
+  padding-top: 1em;
+  border-top: 1px solid var(--time-color);
+  margin: 2em 4em;
+  text-align: center;
+}
+
+.quote > p {
+  margin-bottom: 0.5em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+</style>
